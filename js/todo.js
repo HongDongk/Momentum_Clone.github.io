@@ -36,9 +36,9 @@ function handleToDoSubmit(event) {
   event.preventDefault();
   const newTodo = toDoInput.value;
   toDoInput.value = "";
-  const newTodoObj = {
+  const newTodoObj = {     //text를 object로 변환해줌
     text: newTodo,
-    id: Date.now(),
+    id: Date.now(),  //id를 랜덤하게 생성해줌
   };
   toDos.push(newTodoObj);
   paintToDo(newTodoObj);
@@ -54,6 +54,7 @@ if (savedToDos !== null) {
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo); // 배열의 각각의 요소에 명령 실행
 }
+
 
 
 
