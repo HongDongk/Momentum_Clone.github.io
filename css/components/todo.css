@@ -1,0 +1,56 @@
+#todo-form{
+    text-align: center;
+    position: relative;
+    bottom:100px;
+}
+#todo-form input{
+    text-align: center;
+    color:white;
+    font-size:1rem;
+    width: 540px;
+    height:40px;
+    background-color: rgba(255,255,255,0.5);
+    font-weight: 500;
+    border:none;
+    margin-bottom:20px;
+    margin-top:-50px;
+    transition: all, 0.4s;
+}
+#todo-form input:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+#todo-form input:hover::-webkit-input-placeholder{ /*placeholder color change*/
+    color: rgb(50, 50, 50);
+}
+#todo-form input:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0,0,0,0);
+}
+#todo-list{
+    text-align: left;
+    position:relative;
+    bottom:80px;
+}
+#todo-list li{
+    color: brown;
+    font-weight: 700;
+    font-size:1rem;
+    width:540px;
+    margin: 0 auto;
+    list-style: none;
+}
+#todo-list li:hover{
+    color:red;
+}
+#todo-list button{
+    margin-left:10px;
+    background-color:rgba(255,255,255,0);
+    font-weight: 700;
+    width:30px;
+    height:30px;
+    border:none;
+}
+#todo-list button:hover{
+    cursor: pointer;
+}

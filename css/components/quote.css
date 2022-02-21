@@ -1,0 +1,10 @@
+#quote{
+    width:540px;
+    text-align: center;
+    position:fixed;
+    bottom:30px;
+    left:500px;
+    font-size:1.1rem;
+    font-weight: 200;
+    color:aquamarine;
+}

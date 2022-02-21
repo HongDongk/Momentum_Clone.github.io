@@ -1,5 +1,47 @@
-.hidden{
-    
-    display: none;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap');
 
+@import "reset.css";
+@import "hidden.css";
+
+/* Components */
+@import "components/quote.css";
+@import "components/todo.css";
+@import "components/login.css";
+
+img{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+    z-index: -1;
 }
+
+#clock{
+    text-align: center;
+    height:260px;
+    font-size:8rem;
+    margin:70px;
+    color:white;    
+}
+
+#greeting{
+    text-align: center;
+    color: white;
+    font-size:3rem;
+    position:relative;
+    bottom:130px;
+}
+
+#weather{
+    position:fixed;
+    bottom: 700px;
+    color:aquamarine;
+}
+
+
+body{
+    color: #2e363e;
+    font-family: 'Open Sans', sans-serif;
+}
+
