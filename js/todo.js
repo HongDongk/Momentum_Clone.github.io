@@ -14,7 +14,7 @@ function saveToDos() {
 function deleteToDo(event) {
   const li = event.target.parentElement;     // 원하는 리스트를 삭제할수있도록 찾아줌
   li.remove();
-  toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+  toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));    //  filter 함수: 배열.filter(함수)로 쓰며 함수에서 값이 true일 때 값을 배열에 유지
   saveToDos();
 }                         
   
