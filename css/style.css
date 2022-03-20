@@ -35,7 +35,8 @@ img{
 
 #weather{
     position:fixed;
-    bottom: 700px;
+    left:88%;
+    top: 5%;
     color:aquamarine;
 }
 
